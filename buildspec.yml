@@ -24,7 +24,7 @@ phases:
   post_build:
     commands:
       - echo "Build completed on `date`"
-      - mvn -s settings.xml package
+      - mvn package -s settings.xml
 
 artifacts:
   files:
